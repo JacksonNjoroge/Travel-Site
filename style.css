@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 body{
@@ -157,4 +159,274 @@ section{
     width: 500px;
     height: 616px;
     right: 0;
+}
+
+.services{
+    width: 100%;
+    margin-top: 40px;
+}
+.services .category{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #5e6282;
+    margin-bottom: 10px;
+}
+.services h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    color: #14183e;
+    text-align: center;
+}
+.services .service-cards{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.services .service-cards .card{
+    width: 242px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 36px;
+}
+.services .service-cards .card .card-contents{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services .service-cards .card .card-img img{
+    width: 50px;
+    height: 50px;
+}
+.services .service-cards .card #mic img{
+    width: 100px;
+    height: 80px;
+}
+.services .service-cards .card .service-head{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #1e1d4c;
+    margin-bottom: 10px;
+}
+.services .service-cards .card .service-desc{
+    font-family: "Poppins", sans-serif;
+    font-size: 3ch;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5e6282;
+    text-align: center;
+}
+
+.destinations{
+    width: 100%;
+
+}
+.destinations .top-selling{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #5e6282;
+    text-align: center;
+}
+.destinations .destinations-head{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37.5px;
+    text-align: center;
+    color: #14183e;
+    margin-top: 20px;
+}
+.destinations .destination-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.destinations .destination-cards .cards{
+    width: 315px;
+    height: 457px;
+    border-radius: 24px;
+    background: #fff;
+    
+}
+.destinations .destination-cards .cards img{
+    width: 100%;
+    height: 327px;
+    border-radius: 24px 24px 0 0;
+}
+.destinations .destination-cards .cards .text{
+    display: inline;
+}
+.destinations .destination-cards .cards .text .location,
+.destinations .destination-cards .cards .text .price{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.68px;
+    color: #5e6282;
+    padding: 10px;
+}
+.destinations .destination-cards .cards .text .price{
+    margin-left: 140px;
+}
+.destinations .destination-cards .cards .text2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.68px;
+    color: #5e6282;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.destinations .destination-cards .cards .text2 .bxs-navigation{
+    margin-right: 20px;
+    color: #080809;
+}
+.newsletter{
+    width: 100%;
+    height: 322px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.newsletter .newsletter-content{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 322px;
+    padding: 30px;
+}
+.newsletter .newsletter-content p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 54px;
+    color: #666668;
+} 
+.newsletter .newsletter-content form{
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+.newsletter .newsletter-content form input{
+    width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.newsletter .newsletter-content form label{
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 17.07px;
+}
+.newsletter .newsletter-content form label span{
+    margin-left: 20px;
+}
+.newsletter .newsletter-content form .form-btn{
+    width: 180px;
+    height: 68px;
+    background: #7cd2d7;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border: 0;
+    line-height: 25.5px;
+    color: #fff;
+}
+
+footer {
+    padding: 40px 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    height: 260px;
+    margin: 0 auto;
+}
+.footer-left{
+    max-width: 270.4px;
+}
+.footer-left h2 {
+    color: #181e4b;
+    font-size: 44px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 66px;
+    margin-bottom: 15px;
+}
+
+.footer-left p {
+    color: #5e6282;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 16.19px;
+    max-width: 300px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column h3 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 18.68px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+.footer-column ul li{
+    margin-bottom: 20px;
+}
+
+.footer-column ul li a {
+    color: #5e6282;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 14.94px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    color: #5e6282;
+    font-size: 14px;
 }
